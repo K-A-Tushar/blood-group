@@ -1,0 +1,18 @@
+{
+    "name": "kawsar/bloodgroup",
+    "description": "Blood group management for Laravel apps",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kawsar\\BloodGroup\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KAWSAR AHMED Tushar",
+            "email": "149403668+K-A-Tushar@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
