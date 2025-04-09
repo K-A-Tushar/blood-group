@@ -13,7 +13,7 @@ A simple and reusable package for managing blood groups in Laravel applications.
 1. Install the package via Composer:
 
 ```bash
-composer require laravel/bloodgroup-management
+composer require k-a-tushar/bloodgroup-management
 ```
 2. Publish the package's configuration file:
 
