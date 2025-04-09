@@ -3,9 +3,15 @@
     "description": "Blood group management for Laravel apps",
     "type": "library",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/K-A-Tushar/blood-group.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "Kawsar\\BloodGroup\\": "src/"
+            "BloodGroup\\": "src/"
         }
     },
     "authors": [
@@ -14,5 +20,7 @@
             "email": "149403668+K-A-Tushar@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "laravel/framework": "^8.0"
+    }
 }
