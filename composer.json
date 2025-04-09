@@ -1,5 +1,5 @@
 {
-    "name": "kawsar/bloodgroup",
+    "name": "laravel/bloodgroup-management",
     "description": "Blood group management for Laravel apps",
     "type": "library",
     "license": "MIT",

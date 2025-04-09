@@ -1,8 +1,8 @@
 <?php
 
-namespace Kawsar\BloodGroup\Traits;
+namespace Tushar\BloodGroup\Traits;
 
-use Kawsar\BloodGroup\Models\BloodGroup;
+use Tushar\BloodGroup\Models\BloodGroup;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Builder;

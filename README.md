@@ -13,12 +13,12 @@ A simple and reusable package for managing blood groups in Laravel applications.
 1. Install the package via Composer:
 
 ```bash
-composer require kawsar/blood-group
+composer require laravel/bloodgroup-management
 ```
 2. Publish the package's configuration file:
 
 ```bash
-php artisan vendor:publish --provider="Kawsar\BloodGroup\BloodGroupServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Tushar\BloodGroup\BloodGroupServiceProvider" --tag="config"
 ```
 3. The configuration file will be published to config/bloodgroup.php.
 
@@ -55,7 +55,7 @@ Add the HasBloodGroup trait to any model that should have a blood group. For exa
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Kawsar\BloodGroup\Traits\HasBloodGroup;
+use Tushar\BloodGroup\Traits\HasBloodGroup;
 
 class User extends Model
 {

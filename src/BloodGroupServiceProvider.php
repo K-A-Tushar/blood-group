@@ -1,6 +1,6 @@
 <?php
 
-namespace Kawsar\BloodGroup;
+namespace Tushar\BloodGroup;
 
 use Illuminate\Support\ServiceProvider;
 

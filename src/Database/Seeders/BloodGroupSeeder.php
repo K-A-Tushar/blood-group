@@ -1,9 +1,9 @@
 <?php
 
-namespace Kawsar\BloodGroup\Database\Seeders;
+namespace Tushar\BloodGroup\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Kawsar\BloodGroup\Models\BloodGroup;
+use Tushar\BloodGroup\Models\BloodGroup;
 
 class BloodGroupSeeder extends Seeder
 {
